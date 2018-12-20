@@ -1,0 +1,28 @@
+<web-app>
+    <servlet>
+      <servlet-name>server</servlet-name>
+      <servlet-class>Server.server</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>server</servlet-name>
+        <url-pattern>/server</url-pattern>
+    </servlet-mapping>
+
+    <!--<servlet>-->
+        <!--<servlet-name>con</servlet-name>-->
+        <!--<servlet-class>Server.connectionManager</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>con</servlet-name>-->
+        <!--<url-pattern>/con</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+    <!--<servlet>-->
+        <!--<servlet-name>datamanager</servlet-name>-->
+        <!--<servlet-class>Server.datamanager</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>datamanager</servlet-name>-->
+        <!--<url-pattern>/datamanager</url-pattern>-->
+    <!--</servlet-mapping>-->
+</web-app>
