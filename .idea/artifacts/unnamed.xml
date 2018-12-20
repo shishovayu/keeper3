@@ -10,7 +10,9 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="hessian-4.0.51" />
+          <element id="library" level="project" name="postgresql-9.4-1202.jdbc42" />
         </element>
+        <element id="file-copy" path="$PROJECT_DIR$/Server/xml/web.xml" />
       </element>
     </root>
   </artifact>

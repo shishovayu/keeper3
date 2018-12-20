@@ -1,10 +1,10 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
+package serv;// Source code recreated from a .class file by IntelliJ IDEA
 // (powered by Fernflower decompiler)
 //
 
 import keeper.api.Position;
 import keeper.api.User;
+
 
 import java.sql.*;
 
