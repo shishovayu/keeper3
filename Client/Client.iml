@@ -8,8 +8,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="API" exported="" />
-    <orderEntry type="library" name="hessian-4.0.51" level="project" />
-    <orderEntry type="library" name="postgresql-9.4-1202.jdbc42" level="project" />
-    <orderEntry type="library" name="javax.servlet-3.0.0.v201112011016" level="project" />
+    <orderEntry type="library" name="hessian-4.0.511" level="project" />
+    <orderEntry type="library" name="postgresql-9.4-1202" level="project" />
+    <orderEntry type="library" name="javax.servlet-api-3.0" level="project" />
   </component>
 </module>
