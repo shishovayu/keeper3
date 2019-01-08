@@ -6,27 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c9e9fe2-a07c-4640-bf52-a0f237e5d111" name="Default" comment="commit 1">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+    <list default="true" id="9c9e9fe2-a07c-4640-bf52-a0f237e5d111" name="Default" comment="commit 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/src/ClientServer/AccessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/ClientServer/AccessService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/keeper/client/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/keeper/client/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/keeper/client/Authorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/keeper/client/Authorization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/keeper/client/Barman.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/keeper/client/Waiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/keeper/client/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/keeper/client/Cook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/serv/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/serv/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/serv/connectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/serv/connectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/serv/datamanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/serv/datamanager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/unnamed.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/unnamed.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/API/ClientServer/AccessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/API/ClientServer/AccessService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Client/keeper/client/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/keeper/client/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Client/keeper/client/Authorization$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/keeper/client/Authorization$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Client/keeper/client/Authorization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/keeper/client/Authorization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Client/keeper/client/Barman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Client/keeper/client/Cook.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,13 +97,13 @@
         <counts>
           <entry key="cell" value="11" />
           <entry key="java" value="1922" />
-          <entry key="txt" value="19" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1921" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="PLAIN_TEXT" value="20" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="11" />
         </counts>
@@ -309,6 +290,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -525,7 +507,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546965478709" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546965555917" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hessian-4.0.51" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -842,7 +824,7 @@
       <workItem from="1545572373153" duration="8079000" />
       <workItem from="1545676845390" duration="1415000" />
       <workItem from="1545678440151" duration="29813000" />
-      <workItem from="1545932071452" duration="32465000" />
+      <workItem from="1545932071452" duration="32741000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1545322671889</created>
@@ -865,14 +847,29 @@
       <option name="project" value="LOCAL" />
       <updated>1545679943941</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit 1">
+      <created>1546965482789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546965482789</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit 2">
+      <created>1546965517103</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546965517103</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138925000" />
+    <option name="totallyTimeSpent" value="139201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -977,7 +974,8 @@
     <MESSAGE value="updated" />
     <MESSAGE value="updated_new" />
     <MESSAGE value="commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 1" />
+    <MESSAGE value="commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
