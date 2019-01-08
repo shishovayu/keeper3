@@ -7,9 +7,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Server" />
-    <orderEntry type="library" name="hessian-4.0.511" level="project" />
-    <orderEntry type="library" name="postgresql-9.4-1202" level="project" />
-    <orderEntry type="library" name="javax.servlet-api-3.0" level="project" />
+    <orderEntry type="module" module-name="Server" exported="" />
+    <orderEntry type="library" exported="" name="postgresql-9.4-1202" level="project" />
+    <orderEntry type="library" exported="" name="javax.servlet-api-3.0" level="project" />
+    <orderEntry type="library" exported="" name="hessian-4.0.51" level="project" />
   </component>
 </module>

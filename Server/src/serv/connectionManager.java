@@ -28,7 +28,7 @@ public class connectionManager {
     }
 
     private Connection createConnection() throws SQLException {
-        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/keeper", "postgres", "postgres");
+        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "parol");
     }
 
     public void insert(String sql) throws SQLException {
@@ -41,12 +41,12 @@ public class connectionManager {
 
 
 
-    public ResultSet select(String sql) throws SQLException{
-            Connection connection = createConnection();
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(sql);
-            statement.close();
-            connection.close();
-            return resultSet;
-    }
+//    public ResultSet select(String sql) throws SQLException{
+//            Connection connection = createConnection();
+//            Statement statement = connection.createStatement();
+//            ResultSet resultSet = statement.executeQuery(sql);
+//            statement.close();
+//            connection.close();
+//            return resultSet;
+//    }
 }

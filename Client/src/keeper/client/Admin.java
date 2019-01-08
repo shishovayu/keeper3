@@ -147,7 +147,7 @@ public class Admin extends JFrame {
             try {
                 AccessService accessService = hessian.Hessian();
                 accessService.createUser(Integer.parseInt(userID.getText()), login.getText(), password.getText(), type.getSelectedItem().toString());
-            } catch (IOException | SQLException e1) {
+            } catch (IOException  e1) {
                 e1.printStackTrace();
             }
 
@@ -163,82 +163,82 @@ public class Admin extends JFrame {
     }
 
     public void ctrlPersonal () {
-            final JSplitPane split = new JSplitPane(1);
-            split.setOneTouchExpandable(true);
-            split.setDividerLocation(150);
-            JPanel leftPanel = new JPanel();
-            split.setLeftComponent(leftPanel);
-            JLabel testLabel = new JLabel("tree should be here");
-            leftPanel.add(testLabel);
-            JPanel rightPanel = new JPanel();
-            rightPanel.setLayout(new BorderLayout());
-            JPanel centerPanel = new JPanel();
-            JPanel bottomPanel = new JPanel();
-            JButton add = new JButton("ADD");
-            JButton delete = new JButton("DELETE");
-            JButton back = new JButton("BACK");
-            JButton out = new JButton("OUT");
-            centerPanel.add(add);
-            centerPanel.add(delete);
-            bottomPanel.add(out);
-            bottomPanel.add(back);
-            split.setRightComponent(rightPanel);
-            rightPanel.add(new JLabel(" "), "North");
-            rightPanel.add(centerPanel, "Center");
-            rightPanel.add(bottomPanel, "South");
-            add.addActionListener(new ActionListener() {
-                public void actionPerformed(ActionEvent e) {
-                    remove(split);
-                    validate();
-                    repaint();
-                    addPersonal();
-                    validate();
-                }
-            });
+        final JSplitPane split = new JSplitPane(1);
+        split.setOneTouchExpandable(true);
+        split.setDividerLocation(150);
+        JPanel leftPanel = new JPanel();
+        split.setLeftComponent(leftPanel);
+        JLabel testLabel = new JLabel("tree should be here");
+        leftPanel.add(testLabel);
+        JPanel rightPanel = new JPanel();
+        rightPanel.setLayout(new BorderLayout());
+        JPanel centerPanel = new JPanel();
+        JPanel bottomPanel = new JPanel();
+        JButton add = new JButton("ADD");
+        JButton delete = new JButton("DELETE");
+        JButton back = new JButton("BACK");
+        JButton out = new JButton("OUT");
+        centerPanel.add(add);
+        centerPanel.add(delete);
+        bottomPanel.add(out);
+        bottomPanel.add(back);
+        split.setRightComponent(rightPanel);
+        rightPanel.add(new JLabel(" "), "North");
+        rightPanel.add(centerPanel, "Center");
+        rightPanel.add(bottomPanel, "South");
+        add.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                remove(split);
+                validate();
+                repaint();
+                addPersonal();
+                validate();
+            }
+        });
 
-            this.add(split);
-            this.pack();
+        this.add(split);
+        this.pack();
     }
 
 
     public Admin(String title) {
-            super(title);
-            this.setDefaultCloseOperation(3);
-            JButton orders = new JButton("ORDERS");
-            JButton reserve = new JButton("RESERVE");
-            JButton ctrl = new JButton("CONTROL PERSONAL");
-            JButton close = new JButton("CLOSE SHIFT");
-            JButton menu = new JButton("EDIT MENU");
-            final JSplitPane split = new JSplitPane(1);
-            split.setOneTouchExpandable(true);
-            split.setDividerLocation(150);
-            JPanel leftPanel = new JPanel();
-            JPanel topPanel = new JPanel();
-            split.setLeftComponent(leftPanel);
-            leftPanel.setLayout(new BorderLayout());
-            leftPanel.add(topPanel, "North");
-            topPanel.setLayout(new GridLayout(5, 1));
-            topPanel.add(orders);
-            topPanel.add(reserve);
-            topPanel.add(ctrl);
-            topPanel.add(close);
-            topPanel.add(menu);
-            JPanel rightPanel = new JPanel();
-            split.setRightComponent(rightPanel);
-            JLabel info = new JLabel("the ingredient x was put into stop-list");
-            rightPanel.add(info);
-            this.add(split);
-            ctrl.addActionListener(new ActionListener() {
-                public void actionPerformed(ActionEvent e) {
-                    remove(split);
-                    validate();
-                    repaint();
-                    ctrlPersonal();
-                    validate();
-                }
-            });
-            pack();
-            setVisible(true);
+        super(title);
+        this.setDefaultCloseOperation(3);
+        JButton orders = new JButton("ORDERS");
+        JButton reserve = new JButton("RESERVE");
+        JButton ctrl = new JButton("CONTROL PERSONAL");
+        JButton close = new JButton("CLOSE SHIFT");
+        JButton menu = new JButton("EDIT MENU");
+        final JSplitPane split = new JSplitPane(1);
+        split.setOneTouchExpandable(true);
+        split.setDividerLocation(150);
+        JPanel leftPanel = new JPanel();
+        JPanel topPanel = new JPanel();
+        split.setLeftComponent(leftPanel);
+        leftPanel.setLayout(new BorderLayout());
+        leftPanel.add(topPanel, "North");
+        topPanel.setLayout(new GridLayout(5, 1));
+        topPanel.add(orders);
+        topPanel.add(reserve);
+        topPanel.add(ctrl);
+        topPanel.add(close);
+        topPanel.add(menu);
+        JPanel rightPanel = new JPanel();
+        split.setRightComponent(rightPanel);
+        JLabel info = new JLabel("the ingredient x was put into stop-list");
+        rightPanel.add(info);
+        this.add(split);
+        ctrl.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                remove(split);
+                validate();
+                repaint();
+                ctrlPersonal();
+                validate();
+            }
+        });
+        pack();
+        setVisible(true);
     }
 }
 
